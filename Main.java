@@ -21,7 +21,14 @@ public class Main {
     System.out.println("This is a long "+meh);
 
     long multiplyThat = small *= wave;
+    long divideThat = small /= wave;
+    long addThat = small += wave;
+    long minusThat = small -= wave;
     System.out.println("Multiplied = "+multiplyThat);
+    System.out.println("Divided = "+divideThat);
+    System.out.println("Added = "+addThat);
+    System.out.println("Subtracted = "+minusThat);
+
 
   }
 }

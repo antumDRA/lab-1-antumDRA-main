@@ -1,10 +1,14 @@
 1. What does +=, -=, *=, and /= do?
+Do arithmetic operations. 
 
 2. What happens when we try to add an int value to a String?
+It combines into a string.
 
 3. What about if we multiply an int value to a String?
+throws an error.
 
 4. What happens when we try to set a variable to a value larger than the maximum of the type? For example, what happens when try to store 200 into a byte variable?
+incompatible and throws an error.
 
 5. What happens when we try to change a variable to become a value larger than it's maximum possible value? Such as when we try to store 381 in a byte?
-
+It doesn't proceed. If we force our way, it will show no output. 
